@@ -1,0 +1,39 @@
+{
+    "env": {
+        "es2020": true,
+        "jest/globals": true,
+        "node": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 2020
+    },
+    "plugins": [
+        "jest"
+    ],
+    "rules": {
+        "indent": [
+            "warn",
+            4
+        ],
+        "linebreak-style": [
+            "warn",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "warn",
+            "always"
+        ],
+        "prefer-template": 2,
+        "no-useless-concat": 2,
+        "no-unused-vars": 2,
+        "no-undef": 2,
+        "no-var": 2
+    }
+}

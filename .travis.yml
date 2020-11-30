@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+  - 14
+  - 15
+install:
+  - yarn
+services:
+  - redis-server
+script:
+  - yarn lint
+  - yarn coverage
+notifications:
+  email:
+    on_success: never
